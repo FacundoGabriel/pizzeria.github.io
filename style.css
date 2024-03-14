@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: "Barlow", sans-serif;
+}
+
+.container__nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.nav__tittle{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #dd2803;
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    transition: all 0.5s;
+    border-bottom: 1px solid transparent; 
+}
+
+.nav a:hover{
+    color: #dd2803;
+    border-bottom-color: #dd2803;
+}
+
+
+.container__header{
+    max-width: 100vw;
+    width: 100%;
+    max-height: 100vh;
+    height: 88vh;
+    background-image: url(img/pizza__header.webp);
+    background-size: cover;
+
+}
+.header{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.header p{
+    margin: 0;
+    font-family: "Cookie", cursive;
+    font-size: 55px;
+    color: #fff;
+}
+
+.header h1{
+    max-width: 100%;
+    color: #dd2803;
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 0.4em;
+    margin: 15px 0;
+}
+
+.header h2{
+    max-width: 100%;
+    font-size: 40px;
+    color: #dd2803;
+}
+
+
+
+
+.btn__menu a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    background: #dd2803;
+    width: 140px;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #dd2803;
+}
+
+.btn__menu a:hover{
+   box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+
+.container__section{
+    width: 100%;
+    border-top: 5px solid #dd2803;
+}
+
+.historia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #dd2803;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.historia h2{
+    margin: 15px;
+    color: #fff;
+}
+
+.historia__tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.historia__tittle h1{
+    font-family: Impact, Charcoal, sans-serif;
+    text-transform: uppercase;
+    font-size: 58px;
+    letter-spacing: 0.2em;
+}
+
+.historia__tittle img{
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+
+
+
+.historia__tittle p{
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+
+.container__menu {
+    max-width: 100%;
+    max-height: 100vh;
+    height: 88vh;
+    border: 1px solid red;
+    background-image: url(img/menu.webp);
+    background-size: cover;
+    position: relative;
+}
+
+
+.contenido__rombo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+
+.rombo h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #dd2803;
+    margin: 0;
+}
+.rombo a {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.rombo a {
+    display: inline-block;
+    background-color: red;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+
+
+
+.container__eventos{
+
+    width: 100%;
+    border-top: 5px solid #dd2803;
+}
+
+.eventos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #dd2803;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.eventos h2{
+    margin: 15px;
+    color: #fff;
+}
+
+.eventos__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.eventos__info h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.eventos__info p{
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    font-size: 20px;
+}
+
+.eventos__info a{
+        display: block;
+        text-decoration: none;
+        color: #171717;
+        width: 150px;
+        padding: 8px;
+        text-align: center;
+        font-size: 20px;
+        border: 2px solid #dd2803;
+        margin: auto;
+
+}
+
+.eventos__info a:hover{
+    color: #fff;
+    background-color: #dd2803;
+}
+.gallery-container {
+    max-width: 100%;
+    height: 60%;
+}
+
+.gallery-slides {
+    max-width: 100%; /* Ajustamos el ancho máximo del contenedor */
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Esto evita que las imágenes sobresalgan del contenedor */
+}
+
+.gallery-slides img {
+    width: 650px; /* Hacemos que las imágenes ocupen todo el ancho del contenedor */
+    height: auto;
+}
+
+
+/*.gallery-container {
+    max-width: 100%;
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery-slides {
+    max-width: 100vw;
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.gallery-slides img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}*/
+
+
+
+.container__horarios{
+    max-height: 100vh;
+    width: 100%;
+    border-top: 5px solid #dd2803;
+}
+
+.horarios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #dd2803;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.horarios h2{
+    margin: 15px;
+    color: #fff;
+}
+
+.horarios__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info{
+    max-width: 60%;
+    width: 38%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.horarios__info h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: Impact, Charcoal, sans-serif;
+    letter-spacing: 0.2em;
+
+}
+
+.info h2{
+    text-transform: uppercase;
+}
+
+.info p{
+    font-size: 18px;
+}
+
+
+/*-------------------------Menu-------------------------*/
+
+
+.section__menu{
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.section__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 40%;
+    height: 200px;
+    background-image: url(img/menu_completo.webp);
+    background-size: cover; 
+
+}
+
+.section__img h1{
+   color: #dd2803;
+   font-size: 45px;
+   text-transform: uppercase;
+}
+
+
+.container__section__menu{
+    max-width: 100%;
+    max-height: 100%;
+ 
+}
+
+
+.menu__info{
+    max-width: 90%;
+    margin: 50px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.section__plato1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.plato1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.plato1 h2{
+    margin: 0;
+}
+
+
+.plato__info{
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------ESTILOS AL MENU------------*/
+
+.aperitivos h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 60px 0 0 0;
+}
+
+.aperitivos p{
+    font-size: 18px;
+}
+
+
+.plato__info h2{
+    text-transform: uppercase;
+}
+
+.plato__info p{
+    margin: 0 0 40px 0;
+
+}
+
+.precio p{
+    font-weight: bold;
+    font-size: 25px;
+}
